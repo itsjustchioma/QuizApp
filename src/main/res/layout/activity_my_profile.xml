@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/textcolor"
+    tools:context=".MyProfile">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginStart="135dp"
+            android:layout_marginEnd="135dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            android:layout_marginTop="60dp"
+            />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_angle_left_solid"
+            />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_ellipsis_vertical_solid"
+            android:layout_marginStart="360dp"
+            android:layout_marginTop="17dp"
+            />
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:cardCornerRadius="1000dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher_round" />
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-90dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monica Backer"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="27dp"
+            android:layout_marginStart="170dp"
+/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="360dp"
+            android:src="@drawable/ic_pencil_alt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="35dp"
+            android:text="Senior Designer"
+            android:textColor="@color/white"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="60dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Wallet Balance"
+            android:textColor="@color/colorThree"
+            android:textSize="19dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N50,000,000.00"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Bio"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/bigger_round_background" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consecteur adipiscing elit, sed do eiusmod tempor incididnt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qui"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="17dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="30dp"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_sack_dollar_solid"
+            />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:text="Add Cash"
+            android:textColor="@color/white"
+            android:layout_marginTop="80dp"
+            android:textSize="15dp"
+            android:layout_marginStart="5dp"
+            />
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_basket_shopping_solid"
+            android:layout_marginStart="150dp"
+            />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:text="Buy Online"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="80dp"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_nfc_directional_brands"
+            android:layout_marginStart="290dp"
+            />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:text="Transactions"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="80dp"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+       >
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/bigger_round_background" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="33dp"
+            android:src="@drawable/circle_background"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5% Cashback for You!"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="90dp"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Get 5% cashback on all transactions"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/black"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
